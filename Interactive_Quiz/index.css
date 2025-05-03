@@ -1,0 +1,122 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: #fff;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Navigation Bar */
+  .nav_div {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+  
+  /* Main Container */
+  .main_contain {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 500px;
+  }
+  
+  /* Question Number */
+  .que_no {
+    font-size: 22px;
+    color: #6a0dad;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Question Display */
+  .que_dis {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Progress Bar */
+  .progress_bar .progress-bar {
+    background-color: #4caf50 !important;
+  }
+  
+  .ans_div ul {
+    list-style: none; 
+  }
+  
+  .ans_div .list-group-item {
+    font-size: 18px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ans_div .list-group-item:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+  }
+  
+  
+  .sub_but_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .sub_but {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .sub_but:hover {
+    background-color: #580da0;
+    transform: scale(1.1);
+  }
+  
+  
+  @media (max-width: 600px) {
+    .main_contain {
+      padding: 20px;
+    }
+    .sub_but {
+      padding: 12px 30px;
+    }
+    .nav_div {
+      font-size: 24px;
+    }
+    .que_dis {
+      font-size: 20px;
+    }
+  }
+  

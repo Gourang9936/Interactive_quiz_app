@@ -1,0 +1,57 @@
+Interactive Quiz Web App
+
+This is a simple interactive quiz web application built using HTML, CSS, and JavaScript. The quiz features multiple-choice questions, tracks the user's progress, and displays the final score.
+
+Features
+
+Multiple-choice questions with radio buttons
+
+Progress bar to visualize quiz completion
+
+Real-time score tracking
+
+Responsive design for mobile compatibility
+
+Interactive feedback with animations
+
+Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Bootstrap 5
+
+Project Structure
+
+Interactive-Quiz/
+├── index.html
+├── index.css
+├── index.js
+└── README.md
+
+Open index.html in a web browser.
+
+Usage
+
+Start the quiz by selecting your answer using the radio buttons.
+
+Click the Submit Answer button.
+
+The progress bar will update, and the next question will appear.
+
+After completing the quiz, your final score will be displayed.
+
+Customization
+
+You can modify questions and answers by editing the questions array in index.js.
+
+Adjust colors, sizes, and other styles in index.css.
+
+Modifying Progress Bar Color
+
+License
+
+This project is licensed under the MIT License. Feel free to customize and distribute it as you like.
